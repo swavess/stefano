@@ -1,0 +1,33 @@
+ {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.heroSectionFather {
+    background: #0a3f7d;
+    min-height: 75vh;
+}
+
+.heroSectionFather a:hover {
+    color: tomato;
+    text-decoration: underline;
+}
+.navbarWrapperMother {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    color: white;
+}
+
+.child2 {
+    display: flex; /* is a position property that sets the position of elements */
+    align-items: center; /* position text or items in the middle */
+    list-style-type: none; /* removes bullet points from a text/list */
+    gap: 40px;
+}
+
+.child2 li a{
+    color: white; /* color sets the color of the text */
+    font-size: 20px; /* font-size set
